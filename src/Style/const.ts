@@ -36,3 +36,11 @@ export const PorkCuts = [
 export function setUrl(url: string) {
     return process.env.PUBLIC_URL + url
 }
+
+export const PERIOD = 'period'
+
+export const WLOSS = 'loss'
+
+export const WLOSSP = 'lossp'
+
+export const PRICE = 'price'

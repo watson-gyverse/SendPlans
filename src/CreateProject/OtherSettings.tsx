@@ -143,39 +143,7 @@ function SetOtherSettings({ props }: { props: OtherSettings }) {
               onChange={onMemoChange}
             />
           </div>
-          {/* <h4>
-          ※ 프로젝트를 등록하실 때 아래 옵션창을 닫으셨다면, 해당 옵션이 함께
-          등록되지 않습니다.
-        </h4> */}
         </div>
-
-        {/* <MGOptionButton onClick={openMgOptions}>{buttonText}</MGOptionButton>
-        <MeatGyverOptions expanded={props.showMgOptions}>
-          <StyledH2>
-            냉장고 온도 입력(℃)
-            <StyledInput
-              type='number'
-              name='initTemp'
-              placeholder=''
-              value={nInitTemp === -100 ? '' : nInitTemp}
-              onChange={onInitTempChange}
-            />
-          </StyledH2>
-          <StyledH2>
-            습도 입력(%)
-            <StyledInput
-              type='number'
-              name='initHumid'
-              placeholder=''
-              value={nInitHumid === -1 ? '' : nInitHumid}
-              onChange={onInitHumidChange}
-            />
-          </StyledH2>
-          <StyledH2>
-            팬 속도{' '}
-            <DropDown onChange={props.setFanSpeed}>{fanSpeedList}</DropDown>
-          </StyledH2>
-        </MeatGyverOptions> */}
       </PC>
       <Mobile>
         <div style={{ display: 'flex', height: '300px' }}>
