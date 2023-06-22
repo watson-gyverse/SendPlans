@@ -53,7 +53,7 @@ function SetMeatInfo({ props }: { props: MeatInfo }) {
             'qwnHAfTHRhXpsJbU92MCjWQX2RSdtMsps3N2jT7sb%2F0%2FPNam4JyHegYeahkr%2BLvUw34onIXUbGUO0H1wDawX6w%3D%3D'
         )
         const url =
-            'https://forked-proxy.herokuapp.com/http://data.ekape.or.kr/openapi-data/service/user/animalTrace/traceNoSearch'
+            'https://wnxfrgkleb.us18.qoddiapp.com/http://data.ekape.or.kr/openapi-data/service/user/animalTrace/traceNoSearch'
         setIsLoading(true)
         try {
             await axios
