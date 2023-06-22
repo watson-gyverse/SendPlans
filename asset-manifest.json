@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7acb88c3.css",
-    "main.js": "/static/js/main.e59c7565.js",
-    "static/js/787.74450702.chunk.js": "/static/js/787.74450702.chunk.js",
-    "static/media/Logo.png": "/static/media/Logo.6d6f82aa5ce6e10d486b.png",
-    "index.html": "/index.html",
-    "main.7acb88c3.css.map": "/static/css/main.7acb88c3.css.map",
-    "main.e59c7565.js.map": "/static/js/main.e59c7565.js.map",
-    "787.74450702.chunk.js.map": "/static/js/787.74450702.chunk.js.map"
+    "main.css": "/sendplans/static/css/main.7acb88c3.css",
+    "main.js": "/sendplans/static/js/main.f1e72ffd.js",
+    "static/js/787.74450702.chunk.js": "/sendplans/static/js/787.74450702.chunk.js",
+    "static/media/Logo.png": "/sendplans/static/media/Logo.6d6f82aa5ce6e10d486b.png",
+    "index.html": "/sendplans/index.html",
+    "main.7acb88c3.css.map": "/sendplans/static/css/main.7acb88c3.css.map",
+    "main.f1e72ffd.js.map": "/sendplans/static/js/main.f1e72ffd.js.map",
+    "787.74450702.chunk.js.map": "/sendplans/static/js/787.74450702.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acb88c3.css",
-    "static/js/main.e59c7565.js"
+    "static/js/main.f1e72ffd.js"
   ]
 }
