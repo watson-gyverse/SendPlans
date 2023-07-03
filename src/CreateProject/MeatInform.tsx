@@ -13,6 +13,8 @@ import { Constant } from '../Style/const'
 import axios from 'axios'
 
 export interface MeatInfo {
+    startDate: Date
+    setStartDate: React.Dispatch<React.SetStateAction<Date>>
     setSpecies: (n: string) => void
     setIsBeef: (n: boolean) => void
     setWhere: (n: string) => void
@@ -30,8 +32,6 @@ export interface MeatInfo {
 function SetMeatInfo({ props }: { props: MeatInfo }) {
     const [isLoading, setIsLoading] = useState(false)
     const [isFailed, setIsFailed] = useState(false)
-
-    const [startDate, setStartDate] = useState(new Date())
 
     const onWeightChange = (e: any) => {
         const limit = 6
@@ -154,8 +154,8 @@ function SetMeatInfo({ props }: { props: MeatInfo }) {
                         }}
                     >
                         <DatePickerComponent
-                            targetDate={startDate}
-                            setTargetDate={setStartDate}
+                            targetDate={props.startDate}
+                            setTargetDate={props.setStartDate}
                         />
                         <div>
                             <StyledInput
@@ -241,8 +241,8 @@ function SetMeatInfo({ props }: { props: MeatInfo }) {
                     >
                         <DatePickerComponent
                             style={{ marginLeft: '1rem' }}
-                            targetDate={startDate}
-                            setTargetDate={setStartDate}
+                            targetDate={props.startDate}
+                            setTargetDate={props.setStartDate}
                         />
                         <MobileInput
                             type='number'

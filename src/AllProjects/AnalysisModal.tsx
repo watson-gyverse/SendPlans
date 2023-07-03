@@ -325,10 +325,10 @@ function AnalysisModal({ data, isOpen, onCancel }: ChartProps) {
                 },
                 content: {
                     position: 'absolute',
-                    width: '80%',
+                    width: '90%',
                     height: '90%',
                     top: '5%',
-                    left: '15%',
+                    left: '5%',
                     right: 0,
                     bottom: '5%',
                     border: '1px solid #ccc',
@@ -338,13 +338,15 @@ function AnalysisModal({ data, isOpen, onCancel }: ChartProps) {
                     borderRadius: '4px',
                     outline: 'none',
                     padding: '20px',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                 },
             }}
             isOpen={isOpen}
             onRequestClose={handleClickCancel}
         >
-            <div style={{ display: 'flex' }}>
-                <div style={{ width: '20rem' }}>
+            <div style={{ display: 'flex', height: '34%' }}>
+                <div style={{ width: '20%' }}>
                     <h3>숙성 횟수</h3>
                     <div style={{ display: 'flex' }}>
                         <BasicTableStyle>
@@ -390,7 +392,7 @@ function AnalysisModal({ data, isOpen, onCancel }: ChartProps) {
                         </div>
                     </div>
                 </div>
-                <div style={{ width: '20rem' }}>
+                <div style={{ width: '20%' }}>
                     <h3>숙성 부위별 횟수</h3>
                     <BasicTableStyle
                         style={{ display: species === '' ? 'none' : 'block' }}

@@ -2,7 +2,7 @@
     "name": "sendplans",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://watson-gyverse.github.com/",
+    "homepage": "https://watson-gyverse.github.com/sendplans",
     "dependencies": {
         "@nivo/line": "^0.83.0",
         "@tanstack/react-table": "8.8.4",

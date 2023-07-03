@@ -101,6 +101,12 @@ function AllProjects() {
                         <MobileButton onClick={handleButtonClick}>
                             조회하기
                         </MobileButton>
+                        <MobileButton
+                            style={{ display: hasData ? 'block' : 'none' }}
+                            onClick={handleOpenChartModal}
+                        >
+                            통계
+                        </MobileButton>
                         <h3>
                             종료 여부 관계없이 <br />
                             등록한 모든 숙성일지를 표시합니다.
@@ -114,6 +120,11 @@ function AllProjects() {
                         </h4>
 
                         {<NewTable data={dataArray}></NewTable>}
+                        <AnalysisModal
+                            data={dataArray}
+                            isOpen={isChartModalOpen}
+                            onCancel={handleClickCancel}
+                        />
                     </MobileBody>
                 </MobileBackground>
             </Mobile>

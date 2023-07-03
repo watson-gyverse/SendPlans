@@ -93,10 +93,12 @@ export const BasicThStyle = styled.th`
     border: 1px solid gray;
     border-collapse: collapse;
     width: 8rem;
+    height: 1.2rem;
 `
 export const BasicTdStyle = styled.td`
     border: 1px solid gray;
     border-collapse: collapse;
     width: 6rem;
+    height: 1.2rem;
     text-align: center;
 `
